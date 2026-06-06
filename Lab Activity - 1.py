@@ -47,7 +47,7 @@ print("The area of a rectangle with length " + str(length) + " and with " + str(
 
 name = input("Enter your name: ")
 
-print("Hello " + name + ", welcome to NSBM!")
+print("\nHello " + name + ", welcome to NSBM!")
 print(type(name))
 
 
@@ -57,7 +57,7 @@ birth_year = input("Enter your birth year: ")
 
 birth_year = int(birth_year)
 
-print("Your birth year is:", birth_year)
+print("\nYour birth year is:", birth_year)
 print(type(birth_year))
 
 #Typecasting is the process of converting a value from one data type to another.
@@ -69,7 +69,7 @@ birth_year = int(input("Enter your birth year: "))
 
 age = 2025 - birth_year
 
-print("Your age is:", age)
+print("\nYour age is:", age)
 
 
 #Bonus Question
