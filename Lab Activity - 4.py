@@ -48,10 +48,10 @@ while start >= 0:
 #Question 5
     
 total = 0
-count = 0
+count = 1
 
-while count < 5:
-    num = int(input(f"Enter your number {count+1}: "))
+while count <= 5:
+    num = int(input(f"Enter your number {count}: "))
     total = total + num
     count = count + 1
 
@@ -61,10 +61,10 @@ print("\nThe total sum of your numbers is:", total)
 #Question 6
 
 total = 0
-count = 0
+count = 1
 
-while count < 10:
-    marks = int(input(f"Enter your marks for subject {count+1}: "))
+while count <= 10:
+    marks = int(input(f"Enter your marks for subject {count}: "))
     count = count + 1
     total = total + marks
 
@@ -84,10 +84,10 @@ else:
 #Question 7
 
 largest = 0
-count = 0
+count = 1
 
-while count < 3:
-    num = int(input(f"Enter your number {count+1}: "))
+while count <= 3:
+    num = int(input(f"Enter your number {count}: "))
 
     if num > largest:
         largest = num
