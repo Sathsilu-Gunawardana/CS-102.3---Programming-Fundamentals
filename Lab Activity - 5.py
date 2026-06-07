@@ -1,24 +1,24 @@
 #Question 1
 
-count = 1
 total = 0
+count = 1
 
 while count <= 5:
-    marks = int(input("Enter your marks: "))
+    marks = int(input(f"Enter your marks for subject {count}: "))
     count = count + 1
     total = total + marks
 
-print ("\nYour total number of marks is:", total)
+print ("\nYour total number of marks for all sujects is:", total)
 
 average = total / 5
                 
-print("\nYour average is:", average)
+print("Your average marks for a subject is:", average)
 
 if average > 50:
-    print("\nYou Passed!")
+    print("\nYou have Passed!")
 
 else:
-    print("\nYou Failed!")
+    print("\nYou have Failed!")
 
 
 #Question 2
@@ -27,6 +27,7 @@ pin = int(input("Enter your pin: "))
 
 while pin != 1234:
     print("Incorrect PIN, try again!")
+    
     pin = int(input("Enter your pin: "))
 
 print("Access granted")
@@ -34,12 +35,11 @@ print("Access granted")
 
 #Question 3
 
-
-count = 1
 total = 0
+count = 1
 
 while count <= 5:
-    price = int(input("Enter the price of the grocery item: "))
+    price = int(input(f"Enter the price of the grocery item {count}: "))
     count = count + 1
     total = total + price
 
@@ -49,7 +49,7 @@ if total > 5000:
     discounted = total * 80 / 100
 
     print("\nYou got 20% discount!")
-    print("\nYour discounted price is:", discounted)
+    print("Your discounted price is:", discounted)
 
 else:
     print("\nYou get no discount!")
@@ -57,12 +57,12 @@ else:
 
 #Question 4
 
-count = 1
 odd_count = 0
 even_count = 0
+count = 1
 
 while count <= 5:
-    number = int(input("Enter a number: "))
+    number = int(input(f"Enter your number {count}: "))
 
     if number % 2 == 0:
         even_count = even_count + 1
@@ -90,17 +90,21 @@ print("\nYour total deposited amount is:", total)
 
 if total >= 10000:
     print("\nYou are a premium customer!")
+    
 else:
     print("\nYou are a regular customer!")
+
 
 #Question 6
 
 count = 1
+
 password = input("Enter the password: ")
 
 while count < 3 and password != 'admin':
     print("Incorrect Password!")
     count = count + 1
+    
     password = input("\nEnter the password: ")
 
 if password == 'admin':
@@ -109,13 +113,14 @@ if password == 'admin':
 else:
     print("Account Locked!")
 
+
 #Question 7
 
 total = 0
 count = 1
 
 while count <= 3:
-    units = int(input("Enter units used for month: "))
+    units = int(input(f"Enter units used for month {count}: "))
     total = total + units
     count = count + 1
 
@@ -134,7 +139,7 @@ count = 1
 low_stock = 0
 
 while count <= 5:
-    stock = int(input("Enter the stock quantity: "))
+    stock = int(input(f"Enter the stock quantity for product {count}: "))
 
     if stock < 10:
         low_stock = low_stock + 1
@@ -165,12 +170,12 @@ print("\nNumber of temperatures above 30 is:", high_temp)
 
 count = 1
 
-while count <= 5:
-    sales = int(input("Enter the sales amount: "))
+while count < 5:
+    sales = int(input(f"Enter the sales amount for employee {count}: "))
 
     if sales >= 5000:
         commission = sales * 10 / 100
-        print("Commission is:", commission, "\n")
+        print("Your commission is:", commission, "\n")
 
     else:
         print("No commission earned!\n")
