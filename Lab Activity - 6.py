@@ -5,6 +5,7 @@ count_below_50 = 0
 
 for i in range(6):
     marks = int(input(f"Enter marks for subject {i+1}: "))
+    
     total += marks
 
     if marks < 50:
@@ -18,8 +19,10 @@ print("Subjects below 50:", count_below_50)
 
 if average >= 60 and count_below_50 == 0:
     print("\nExcellent Performance")
+    
 elif average >= 50:
     print("\nPass")
+    
 else:
     print("\nFail")
 
@@ -30,25 +33,29 @@ correct_pin = "1234"
 balance = 10000
 
 for attempt in range(3):
-    pin = input("Enter PIN: ")
+    pin = input("Enter the PIN: ")
 
     if pin == correct_pin:
-        amount = int(input("Enter withdrawal amount: "))
+        amount = int(input("\nEnter the withdrawal amount: "))
 
         if amount > balance:
-            print("Insufficient balance")
+            print("\nInsufficient balance")
+
         elif balance - amount < 500:
-            print("Minimum balance of Rs. 500 must be maintained")
+            print("\nMinimum balance of Rs.500 must be maintained.")
+
         else:
             balance -= amount
-            print("Withdrawal successful")
-            print("Remaining balance:", balance)
+            print("\nWithdrawal is successful")
+            print("Remaining balance is:", balance)
+
         break
+
     else:
-        print("Incorrect PIN")
+        print(f"Incorrect PIN (Incorrect attempt {attempt + 1})\n")
 
 else:
-    print("Account blocked (3 incorrect attempts)")
+    print("Account blocked! (3 Incorrect attempts)")
 
 
 #Question 3
@@ -56,15 +63,17 @@ else:
 total = 0
 
 for i in range(5):
-    price = float(input(f"Enter price of item {i+1}: "))
-    quantity = int(input(f"Enter quantity of item {i+1}: "))
+    price = float(input(f"Enter the price of item {i+1}: "))
+    quantity = int(input(f"Enter the quantity of item {i+1}: "))
+    
     total += price * quantity
 
-# Apply discount
 if total > 10000:
     discount = 0.25
+    
 elif total > 5000:
     discount = 0.15
+    
 else:
     discount = 0
 
@@ -80,20 +89,20 @@ print("Final Amount:", final_bill)
 
 balance = 0
 
-while True:
-    amount = int(input("Enter amount (0 to stop): "))
+amount = float(input("Enter deposit/withdrawal amount (0 to stop): "))
 
-    if amount == 0:
-        break
-
+while amount != 0:
     balance = balance + amount
 
-print("\nFinal Balance:", balance)
+    amount = float(input("Enter deposit/withdrawal amount (0 to stop): "))
+
+print("Final balance:", balance)
 
 if balance < 0:
-    print("Account Status: Overdrawn")
+    print("Overdrawn")
+    
 else:
-    print("Account Status: Active")
+    print("Active")
 
 
 #Question 5
@@ -102,6 +111,7 @@ total_units = 0
 
 for i in range(4):
     units = int(input(f"Enter units for month {i+1}: "))
+    
     total_units = total_units + units
 
 if total_units <= 100:
@@ -117,9 +127,11 @@ print("\nTotal Units:", total_units)
 print("Total Bill:", bill)
 
 if total_units > 400:
-    print("Usage Category: High")
+    print("\nUsage Category: High")
+    
 else:
-    print("Usage Category: Normal")
+    print("\nUsage Category: Normal")
+
 
 #Question 6
 
@@ -132,8 +144,10 @@ for i in range(6):
 
     if stock < 10:
         low += 1
+        
     elif stock <= 50:
         normal += 1
+        
     else:
         high += 1
 
@@ -141,28 +155,32 @@ print("\nLow stock items: ",low)
 print("Normal stock items: ",normal)
 print("High stock items: ",high)
 
+
 #Question 7
 
 high = 0
 normal = 0
 low = 0
 
-while True:
-    temp = int(input("Enter temperature (-1 to stop): "))
+temp = float(input("Enter temperature (-1 to stop): "))
 
-    if temp == -1:
-        break
+while temp != -1:
 
     if temp > 35:
-        high = high + 1
-    elif temp >= 20:
-        normal = normal + 1
-    else:
-        low = low + 1
+        high += 1
 
-print("\nHigh temperatures:", high)
+    elif temp >= 20:
+        normal += 1
+
+    else:
+        low += 1
+
+    temp = float(input("Enter temperature (-1 to stop): "))
+
+print("High temperatures:", high)
 print("Normal temperatures:", normal)
 print("Low temperatures:", low)
+
 
 #Question 8
 
@@ -174,8 +192,10 @@ for i in range(5):
 
     if salary >= 100000:
         bonus = salary * 0.20
+        
     elif salary >= 50000:
         bonus = salary * 0.10
+        
     else:
         bonus = salary * 0.05
 
@@ -184,5 +204,5 @@ for i in range(5):
 
     print(f"Employee {i+1} bonus: {bonus}\n")
 
-print(f"\nTotal Salary Payout: {total_salary}")
+print(f"Total Salary Payout: {total_salary}")
 print(f"Total Bonus Given: {total_bonus}")
