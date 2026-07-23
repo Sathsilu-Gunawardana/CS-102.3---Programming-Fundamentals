@@ -1,4 +1,4 @@
-#Question 1
+# Question 1
 
 total = 0
 count = 1
@@ -21,7 +21,7 @@ else:
     print("\nYou have Failed!")
 
 
-#Question 2
+# Question 2
 
 pin = int(input("Enter your pin: "))
 
@@ -33,7 +33,7 @@ while pin != 1234:
 print("Access granted")
     
 
-#Question 3
+# Question 3
 
 total = 0
 count = 1
@@ -55,7 +55,7 @@ else:
     print("\nYou get no discount!")
 
 
-#Question 4
+# Question 4
 
 odd_count = 0
 even_count = 0
@@ -76,7 +76,7 @@ print("\nTotal number of odd numbers is:", odd_count)
 print("Total number of even numbers is:", even_count)
 
 
-#Question 5
+# Question 5
 
 total = 0
 
@@ -95,7 +95,7 @@ else:
     print("\nYou are a regular customer!")
 
 
-#Question 6
+# Question 6
 
 count = 1
 
@@ -114,7 +114,7 @@ else:
     print("Account Locked!")
 
 
-#Question 7
+# Question 7
 
 total = 0
 count = 1
@@ -133,7 +133,7 @@ else:
     print("\nNormal Usage!")
 
 
-#Question 8
+# Question 8
 
 count = 1
 low_stock = 0
@@ -149,7 +149,7 @@ while count <= 5:
 print("\nNumber of low stock products is:", low_stock)
 
 
-#Question 9
+# Question 9
 
 count = 0
 high_temp = 0
@@ -166,7 +166,7 @@ while temperature != -1:
 print("\nNumber of temperatures above 30 is:", high_temp)
 
 
-#Question 10
+# Question 10
 
 count = 1
 
