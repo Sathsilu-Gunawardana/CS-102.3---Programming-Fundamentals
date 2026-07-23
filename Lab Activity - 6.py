@@ -1,4 +1,4 @@
-#Question 1
+# Question 1
 
 total = 0
 count_below_50 = 0
@@ -27,7 +27,7 @@ else:
     print("\nFail")
 
 
-#Question 2
+# Question 2
 
 correct_pin = "1234"
 balance = 10000
@@ -58,7 +58,7 @@ else:
     print("Account blocked! (3 Incorrect attempts)")
 
 
-#Question 3
+# Question 3
 
 total = 0
 
@@ -85,7 +85,7 @@ print("Discount:", discount_amount)
 print("Final Amount:", final_bill)
 
 
-#Question 4
+# Question 4
 
 balance = 0
 
@@ -105,7 +105,7 @@ else:
     print("Active")
 
 
-#Question 5
+# Question 5
 
 total_units = 0
 
@@ -133,7 +133,7 @@ else:
     print("\nUsage Category: Normal")
 
 
-#Question 6
+# Question 6
 
 low = 0
 normal = 0
@@ -156,7 +156,7 @@ print("Normal stock items: ",normal)
 print("High stock items: ",high)
 
 
-#Question 7
+# Question 7
 
 high = 0
 normal = 0
@@ -182,7 +182,7 @@ print("Normal temperatures:", normal)
 print("Low temperatures:", low)
 
 
-#Question 8
+# Question 8
 
 total_salary = 0
 total_bonus = 0
