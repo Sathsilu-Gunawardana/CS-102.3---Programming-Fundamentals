@@ -1,13 +1,13 @@
-#Question 1
+# Question 1
 
-#a
+# a
 i = 0
 
 while i <= 10:
     print(i)
     i = i + 1
 
-#b
+# b
 b = 10
 
 while b >= 0:
@@ -15,7 +15,7 @@ while b >= 0:
     b = b - 1
 
     
-#Question 2
+# Question 2
     
 total = 0
 i = 1
@@ -27,7 +27,7 @@ while i <= 10:
 print("The sum is: ", total)
 
 
-#Question 3
+# Question 3
 
 i = 1
 
@@ -36,7 +36,7 @@ while i <= 10:
     i = i + 1
 
 
-#Question 4
+# Question 4
     
 start = int(input("Enter a number to start the countdown: "))
 
@@ -45,7 +45,7 @@ while start >= 0:
     start = start - 1
 
 
-#Question 5
+# Question 5
     
 total = 0
 count = 1
@@ -58,7 +58,7 @@ while count <= 5:
 print("\nThe total sum of your numbers is:", total)
 
 
-#Question 6
+# Question 6
 
 total = 0
 count = 1
@@ -81,7 +81,7 @@ else:
     print("\nYou have Failed!")
 
 
-#Question 7
+# Question 7
 
 largest = 0
 count = 1
@@ -97,7 +97,7 @@ while count <= 3:
 print("\nLargest number is", largest)
 
 
-#Question 8
+# Question 8
 
 user_input = str("")
 
@@ -107,7 +107,7 @@ while user_input != "stop":
     userinput = input("Type 'stop' to end, or anything else to see 'Hello' again: ")
 
 
-#Question 9
+# Question 9
 
 num = int(input("Enter a number: "))
 
@@ -120,7 +120,7 @@ while num != -1:
     num = int(input("\nEnter a number: "))
 
 
-#Question 10
+# Question 10
 
 number = int(input("Enter your number: "))
 
