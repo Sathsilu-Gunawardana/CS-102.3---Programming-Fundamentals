@@ -1,10 +1,10 @@
-#Question 1
+# Question 1
 
-#Conditional statements in Python are used to execute certain blocks of code based on specific conditions.
+# Conditional statements in Python are used to execute certain blocks of code based on specific conditions.
 
-#if - Runs code if the condition is True.
-#elif - Checks another condition if the previous ones were False.
-#else - Runs if all conditions above were False.
+# if - Runs code if the condition is True.
+# elif - Checks another condition if the previous ones were False.
+# else - Runs if all conditions above were False.
 
 num1 = 10
 
@@ -18,7 +18,7 @@ else:
     print("\nNegative number")
 
    
-#Question 2
+# Question 2
     
 num1 = int(input("Enter a number: "))
 
@@ -29,7 +29,7 @@ else:
     print("\nNegative number")
 
 
-#Question 3
+# Question 3
 
 num1 = int(input("Enter a number: "))
 
@@ -42,7 +42,7 @@ else:
     print("\nThe number is odd")
 
 
-#Question 4
+# Question 4
 
 age = int(input("Enter your age: "))
 
@@ -53,7 +53,7 @@ else:
     print("\nYou are not eligible to vote")
 
 
-#Question 5
+# Question 5
     
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
@@ -66,7 +66,7 @@ else:
     print(num2, "is larger than", num1)
     
     
-#Question 6
+# Question 6
     
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
@@ -82,7 +82,7 @@ else:
     print("\nThe largest number is: ", num3)
 
     
-#Question 7
+# Question 7
 
 num1 = int(input("Enter a number: "))
 
@@ -96,7 +96,7 @@ else:
     print("\nNegative number")
 
 
-#Question 8
+# Question 8
     
 marks = int(input("Enter your marks: "))
 
@@ -113,7 +113,7 @@ else:
     print("\nYour grade is F")
 
     
-#Question 9
+# Question 9
 
 username = str(input("Enter your username: "))
 password = str(input("Enter your password: "))
@@ -125,7 +125,7 @@ else:
     print("\nLogin unsuccessful")
 
 
-#Question 10
+# Question 10
 
 price = int(input("Enter purchasing price: "))
 
@@ -142,7 +142,7 @@ else:
     print("\nYou get no discount")
 
 
-#Bonus Question
+# Bonus Question
 
 units = int(input("Enter the number of units used: "))
 
