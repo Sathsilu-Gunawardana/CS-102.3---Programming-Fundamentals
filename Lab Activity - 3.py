@@ -1,4 +1,4 @@
-#Question 1
+# Question 1
 
 a = int(input("Enter your first number: "))
 b = int(input("Enter your second number: "))
@@ -12,7 +12,7 @@ b = temp
 print("After swapping a = ", a, "b = ", b)
 
 
-#Question 2
+# Question 2
 
 attendance = int(input("Enter attendance percentage without the % sign - "))
 
@@ -23,7 +23,7 @@ else:
     print("\nYou are not eligible for the exams")
 
 
-#Question 3
+# Question 3
     
 salary = int(input("Enter your salary: "))
 
@@ -39,7 +39,7 @@ else:
 print("\nBonus =", bonus)
 
 
-#Question 4
+# Question 4
 
 income = int(input("Enter your income: "))
 
@@ -55,7 +55,7 @@ else:
 print("\nYour tax amount is: ", tax)
 
 
-#Question 5
+# Question 5
 
 num1 = int(input("Enter your first number: "))
 num2 = int(input("Enter your second number: "))
@@ -74,7 +74,7 @@ else:
     print("\nLargest number is: ", num3)
 
 
-#Question 6
+# Question 6
     
 gpa = float(input("Enter your GPA: "))
 income = int(input("Enter your family's income: "))
@@ -89,7 +89,7 @@ else:
     print("\nYou get no scholarship")
 
 
-#Question 7
+# Question 7
     
 weight = int(input("Enter your baggage's weight: "))
 
@@ -104,7 +104,7 @@ else:
     print("\nBaggage not allowed")
 
 
-#Question 8
+# Question 8
     
 pin = int(input("Enter your pin: "))
 balance = int(input("Enter your account balance: "))
