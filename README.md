@@ -1,2 +1,2 @@
-# CS102.3 - Programming Fundamentals
+# CS 102.3 - Programming Fundamentals
 Lab Activities
