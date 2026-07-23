@@ -1,17 +1,17 @@
-#Question 1
+# Question 1
 
 fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"]
 
-#a
+# a
 print(fruits)
 print()
 
-#b
+# b
 print("First item:", fruits[0])
 print("Last item:", fruits[-1])
 print()
 
-#c
+# c
 count = 0
 
 for item in fruits:
@@ -20,69 +20,69 @@ for item in fruits:
 print("Length:", count)
 
 
-#Question 2
+# Question 2
 
 colors = ["Red", "Blue", "Green"]
 
-#a
+# a
 colors.append("Yellow")
 print(colors)
 print()
 
-#b
+# b
 colors.insert(1, "Pink")
 print(colors)
 print()
 
-#c
+# c
 colors.remove("Blue")
 print(colors)
 print()
 
-#d
+# d
 removed = colors.pop()
 
 print("Removed item:", removed)
 print("Final List:", colors)
 
 
-#Question 3
+# Question 3
 
 numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90,100]
 
-#a
+# a
 print(numbers[:3])
 print()
 
-#b
+# b
 print(numbers[-3:])
 print()
 
-#c
+# c
 print(numbers[::2])
 print()
 
-#d
+# d
 print(numbers[::-1])
 
 
-#Question 4
+# Question 4
 
 students = ["Dulneth", "Bimsara", "Sadew", "Hirun", "Theshan"]
 
-#a
+# a
 for name in students:
     print(name)
 
 print()
 
-#b
+# b
 for i, name in enumerate(students, start=1):
     print(i, ".", name)
 
 print()
 
-#c
+# c
 count = 0
 
 for name in students:
@@ -92,28 +92,28 @@ for name in students:
 print("Count:", count)
 
 
-#Question 5
+# Question 5
 
 nums = [4, 7, 2, 7, 9, 1, 7, 5]
 
-#a
+# a
 count = nums.count(7)
 
 print("7 appears", count, "times")
 print()
 
-#b
+# b
 print("Minimum:", min(nums))
 print("Maximum:", max(nums))
 print()
 
-#c
+# c
 nums.reverse()
 
 print(nums)
 print()
 
-#d
+# d
 copy_nums = nums.copy()
 copy_nums.extend([10, 11, 12])
 
@@ -121,7 +121,7 @@ print("Original:", nums)
 print("Copy:", copy_nums)
 
 
-#Question 6
+# Question 6
 
 L1 = []
 L2 = []
@@ -147,7 +147,7 @@ print("L2 =", L2)
 print("\nL  =", L)
 
 
-#Question 7
+# Question 7
 
 students = ["Sadew", "Hirun", "Dulneth", "Bimsara", "Theshan", "Nisal"]
 
@@ -166,7 +166,7 @@ else:
     print("Student Not Found")
 
 
-#Question 8
+# Question 8
 
 students = []
 
@@ -199,7 +199,7 @@ for student in students:
         print(student)
 
 
-#Question 9
+# Question 9
 
 marks = []
 
